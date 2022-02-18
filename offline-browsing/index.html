@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>SW Offline Browsing</h1>
+
+  <h2>
+    <a href="/contact.html">
+      Contact
+    </a>
+  </h2>
+  <h2>
+    <a href="/about.html">
+      About
+    </a>
+  </h2>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener(
+        'load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(
+              () => {
+                console.log('Service worker is registered!')
+              }
+            )
+            .catch(
+              (err) => {
+                console.log(`Error occured ${err}`)
+              }
+            )
+        }
+      )
+    }
+  </script>
+
+</body>
+
+</html>
