@@ -1,0 +1,53 @@
+{
+  "packageId": "com.codebulbs.twa",
+  "host": "codebulbs.com",
+  "name": "Codebulbs Developers Magzine",
+  "launcherName": "Codebulbs",
+  "display": "standalone",
+  "themeColor": "#CDD0D3",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#000000",
+  "enableNotifications": true,
+  "startUrl": "/?source=pwa",
+  "iconUrl": "https://cdn.codebulbs.com/icons/icon-512.png",
+  "maskableIconUrl": "https://cdn.codebulbs.com/icons/icon-512.png",
+  "monochromeIconUrl": "https://cdn.codebulbs.com/icons/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/home/thelovekesh/Desktop/my-pwa/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Codebulbs Site Search",
+      "shortName": "Search",
+      "url": "https://codebulbs.com/search/?source=pwa",
+      "chosenIconUrl": "https://cdn.codebulbs.com/icons/icon-192.png"
+    },
+    {
+      "name": "Codebulbs All Posts",
+      "shortName": "Archive",
+      "url": "https://codebulbs.com/archive/?source=pwa",
+      "chosenIconUrl": "https://cdn.codebulbs.com/icons/icon-192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://codebulbs.com/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}

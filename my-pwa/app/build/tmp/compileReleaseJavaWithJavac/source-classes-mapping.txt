@@ -1,0 +1,8 @@
+com/codebulbs/twa/DelegationService.java
+ com.codebulbs.twa.DelegationService
+com/codebulbs/twa/Application.java
+ com.codebulbs.twa.Application
+com/codebulbs/twa/LauncherActivity.java
+ com.codebulbs.twa.LauncherActivity
+com/codebulbs/twa/BuildConfig.java
+ com.codebulbs.twa.BuildConfig
